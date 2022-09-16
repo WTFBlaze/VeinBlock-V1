@@ -1,0 +1,21 @@
+name: VeinBlock
+version: '${project.version}'
+main: me.wtfblaze.veinblock.VeinBlock
+api-version: 1.18
+depend: [ Vault, PlaceholderAPI, ShopGUIPlus ]
+authors: [ WTFBlaze ]
+description: The Core plugin for VeinBlock Skyblock Server
+commands:
+  Mine:
+    aliases:
+      - publicmine
+      - pubmine
+      - pmine
+      - mines
+    usage: /mine
+    description: Teleports the player to the public mine location
+  Taunts:
+    aliases:
+      - taunt
+    usage: /taunts
+    description: Opens the taunts menu
